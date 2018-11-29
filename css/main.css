@@ -37,10 +37,12 @@ figcaption {
 
 h2 {
   font-size: 1.5rem;
+  margin: 0;
 }
 
 p {
   font-family: georgia;
+  margin: 0;
 }
 
 @media only screen and (min-width: 38em) {
@@ -52,8 +54,8 @@ p {
 
   figcaption {
     position: absolute;
-    bottom: .5em;
-    right: .5em;
+    bottom: 1em;
+    right: 1em;
     background-color: rgba(0, 0, 0, .3);
     border-radius: 8px;
     color: #fff;
